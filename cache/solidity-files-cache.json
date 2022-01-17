@@ -70,8 +70,8 @@
       ]
     },
     "/Users/bensparks/Documents/GitHub/learning-foundry/src/test/Contract.t.sol": {
-      "lastModificationDate": 1642443615711,
-      "contentHash": "a8dbe88ec17a9c19244ebb3b76317f1e",
+      "lastModificationDate": 1642444259154,
+      "contentHash": "4e7fe4c24a12981e989252bf1cabb277",
       "sourceName": "src/test/Contract.t.sol",
       "solcConfig": {
         "settings": {

@@ -11,10 +11,18 @@ contract ContractTest is DSTest {
 		myContract = new Contract();
 	}
 
+	// run forge test -vvvv for details including logs
 	function testAddOne() public {
+		emit log_string('hey');
 		assertEq(3, myContract.addOne(2));
 	}
 
+	// testing fuzzing in Foundry
+	function testAddOneFuzz(uint256 x) public {
+		assertEq(x + 1, myContract.addOne(x));
+	}
+
+	// prefix test with testFail to check failure cases
 	function testFailAddOne() public {
 		assertEq(2, myContract.addOne(2));
 	}
