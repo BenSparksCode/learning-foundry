@@ -36,8 +36,8 @@
       ]
     },
     "/Users/bensparks/Documents/GitHub/learning-foundry/src/Contract.sol": {
-      "lastModificationDate": 1642443036943,
-      "contentHash": "338c2b456417869f11b228de3b3fbaed",
+      "lastModificationDate": 1642443505365,
+      "contentHash": "e1388d9b0e10df6265337122c4e38b0e",
       "sourceName": "src/Contract.sol",
       "solcConfig": {
         "settings": {
@@ -70,8 +70,8 @@
       ]
     },
     "/Users/bensparks/Documents/GitHub/learning-foundry/src/test/Contract.t.sol": {
-      "lastModificationDate": 1642443422874,
-      "contentHash": "49a2f085d01ca1c262a2a5ff8ec07f26",
+      "lastModificationDate": 1642443615711,
+      "contentHash": "a8dbe88ec17a9c19244ebb3b76317f1e",
       "sourceName": "src/test/Contract.t.sol",
       "solcConfig": {
         "settings": {

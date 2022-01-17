@@ -2,21 +2,20 @@
 pragma solidity 0.8.10;
 
 import 'ds-test/test.sol';
+import '../Contract.sol';
 
 contract ContractTest is DSTest {
-	uint256 a;
+	Contract myContract;
 
 	function setUp() public {
-		a = 10;
+		myContract = new Contract();
 	}
 
-	// To test a successful case - prefix test
-	function testExample() public {
-		assertEq(a, 10);
+	function testAddOne() public {
+		assertEq(3, myContract.addOne(2));
 	}
 
-	// To test a failure case - prefix testFail
-	function testFailExample() public {
-		assertEq(a, 9);
+	function testFailAddOne() public {
+		assertEq(2, myContract.addOne(2));
 	}
 }
