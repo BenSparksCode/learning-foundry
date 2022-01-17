@@ -70,8 +70,8 @@
       ]
     },
     "/Users/bensparks/Documents/GitHub/learning-foundry/src/test/Contract.t.sol": {
-      "lastModificationDate": 1642444259154,
-      "contentHash": "4e7fe4c24a12981e989252bf1cabb277",
+      "lastModificationDate": 1642445418368,
+      "contentHash": "ebf74cc132dcfdf4ed8c5413f075ea81",
       "sourceName": "src/test/Contract.t.sol",
       "solcConfig": {
         "settings": {
@@ -100,7 +100,9 @@
         "0.8.10"
       ],
       "artifacts": [
-        "ContractTest"
+        "ContractTest",
+        "Foo",
+        "Vm"
       ]
     }
   }

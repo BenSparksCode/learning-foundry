@@ -4,11 +4,31 @@ pragma solidity 0.8.10;
 import 'ds-test/test.sol';
 import '../Contract.sol';
 
+contract Foo {
+	function bar() external {
+		require(msg.sender == address(1), 'wrong caller');
+	}
+}
+
+interface Vm {
+	function prank(address) external;
+}
+
 contract ContractTest is DSTest {
+	// address(bytes20(uint160(uint256(keccak256('hevm cheat code')))))
+	// = 0x7109709ECfa91a80626fF3989D68f67F5b1DD12D
+	Vm vm = Vm(0x7109709ECfa91a80626fF3989D68f67F5b1DD12D);
 	Contract myContract;
+	Foo foo;
 
 	function setUp() public {
 		myContract = new Contract();
+		foo = new Foo();
+	}
+
+	function testBar() public {
+		vm.prank(address(1));
+		foo.bar();
 	}
 
 	// run forge test -vvvv for details including logs
