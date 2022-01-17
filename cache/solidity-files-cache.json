@@ -1,0 +1,107 @@
+{
+  "_format": "ethers-rs-sol-cache-1",
+  "files": {
+    "/Users/bensparks/Documents/GitHub/learning-foundry/lib/ds-test/src/test.sol": {
+      "lastModificationDate": 1642443039067,
+      "contentHash": "5d45a46528eaf8a26f0a8d93669f3148",
+      "sourceName": "lib/ds-test/src/test.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.23"
+      ],
+      "artifacts": [
+        "DSTest"
+      ]
+    },
+    "/Users/bensparks/Documents/GitHub/learning-foundry/src/Contract.sol": {
+      "lastModificationDate": 1642443036943,
+      "contentHash": "338c2b456417869f11b228de3b3fbaed",
+      "sourceName": "src/Contract.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "Contract"
+      ]
+    },
+    "/Users/bensparks/Documents/GitHub/learning-foundry/src/test/Contract.t.sol": {
+      "lastModificationDate": 1642443422874,
+      "contentHash": "49a2f085d01ca1c262a2a5ff8ec07f26",
+      "sourceName": "src/test/Contract.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "ContractTest"
+      ]
+    }
+  }
+}
