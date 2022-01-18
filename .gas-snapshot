@@ -1,0 +1,5 @@
+testAddOne() (gas: 3695)
+testAddOneFuzz(uint256) (runs: 256, μ: 2762, ~: 2764)
+testBarReverts() (gas: 4468)
+testBarWorks() (gas: 4107)
+testFailAddOne() (gas: 8649)
