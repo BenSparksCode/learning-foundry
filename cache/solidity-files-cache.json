@@ -35,6 +35,40 @@
         "DSTest"
       ]
     },
+    "/Users/bensparks/Documents/GitHub/learning-foundry/lib/solmate/src/tokens/ERC20.sol": {
+      "lastModificationDate": 1642445651277,
+      "contentHash": "e2c22aed19719e4909dbd84d07295e2b",
+      "sourceName": "lib/solmate/src/tokens/ERC20.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.0"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
     "/Users/bensparks/Documents/GitHub/learning-foundry/src/Contract.sol": {
       "lastModificationDate": 1642443505365,
       "contentHash": "e1388d9b0e10df6265337122c4e38b0e",
@@ -70,8 +104,8 @@
       ]
     },
     "/Users/bensparks/Documents/GitHub/learning-foundry/src/test/Contract.t.sol": {
-      "lastModificationDate": 1642445418368,
-      "contentHash": "ebf74cc132dcfdf4ed8c5413f075ea81",
+      "lastModificationDate": 1642446198079,
+      "contentHash": "58cf6786bcc07a692828219873d9749a",
       "sourceName": "src/test/Contract.t.sol",
       "solcConfig": {
         "settings": {

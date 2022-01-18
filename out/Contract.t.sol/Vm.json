@@ -2,6 +2,20 @@
   "abi": [
     {
       "type": "function",
+      "name": "expectRevert",
+      "inputs": [
+        {
+          "internalType": "bytes",
+          "name": "",
+          "type": "bytes"
+        }
+      ],
+      "outputs": [],
+      "constant": null,
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
       "name": "prank",
       "inputs": [
         {

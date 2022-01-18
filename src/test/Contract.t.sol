@@ -4,6 +4,8 @@ pragma solidity 0.8.10;
 import 'ds-test/test.sol';
 import '../Contract.sol';
 
+import 'solmate/tokens/ERC20.sol';
+
 contract Foo {
 	function bar() external {
 		require(msg.sender == address(1), 'wrong caller');
@@ -12,6 +14,8 @@ contract Foo {
 
 interface Vm {
 	function prank(address) external;
+
+	function expectRevert(bytes calldata) external;
 }
 
 contract ContractTest is DSTest {
@@ -26,8 +30,13 @@ contract ContractTest is DSTest {
 		foo = new Foo();
 	}
 
-	function testBar() public {
-		vm.prank(address(1));
+	function testBarWorks() public {
+		vm.prank(address(1)); //use prank to set msg.sender to address(1)
+		foo.bar();
+	}
+
+	function testBarReverts() public {
+		vm.expectRevert('wrong caller'); //use expectRevert to expect a revert
 		foo.bar();
 	}
 
