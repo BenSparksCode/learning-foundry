@@ -5,6 +5,7 @@ import 'ds-test/test.sol';
 import '../Contract.sol';
 
 import 'solmate/tokens/ERC20.sol';
+import '@openzeppelin/contracts/access/Ownable.sol';
 
 contract Foo {
 	function bar() external {
